@@ -1,0 +1,157 @@
+#s5_navv li, #s5_search, .module_round_box_outer,  #s5_header_wrap, #s5_component_wrap, #s5_breadcrumb_wrap, .slideInfoZone  {
+direction:rtl;
+text-align:right;
+}
+
+#cboxContent .module_round_box_outer .s5_mod_h3_outer {
+direction:ltr;
+text-align:left;
+}
+
+#s5_bottom_menu_wrap ul.menu li {
+padding-left:0px;
+padding-right:10px;
+}
+
+ul.actions {
+float:left;
+margin-left:0px !important;
+}
+
+.s5_va_active, .s5_va_inactive {
+padding-right:38px;
+}
+
+#s5_nav, .button, a.readon, p.readmore a, div.catItemReadMore, .userItemReadMore, div.catItemCommentsLink, .userItemCommentsLink, a.readmore-link, a.comments-link, div.itemCommentsForm form input#submitCommentButton, .jdGallery .slideInfoZone a.readon, #s5_logo_wrap {
+float:right;
+}
+
+#s5_pos_banner, #s5_social_wrap1, #s5_search, #s5_header_right, #s5_header_right, #s5_loginreg, #s5_register, #s5_login, #s5_social_wrap {
+float:left;
+}
+
+#s5_social_wrap div {
+margin-left:0px;
+margin-right:8px;
+}
+
+#s5_top_menu li a {
+padding-left:0px;
+padding-right:16px;
+}
+
+#s5_logregtm {
+margin:0px;
+margin-left:14px;
+}
+
+#s5_search_icon {
+margin:0px;
+margin-left:19px;
+float:left;
+}
+
+#s5_search_hover {
+float:left;
+}
+
+#s5_top_menu li, #s5_top_menu {
+float:left;
+}
+
+#s5_register {
+margin:0px;
+padding:0px;
+margin-right:10px;
+padding-right:10px;
+border:none;
+border-right:1px solid #D2D1D1;
+}
+
+#s5_search input {
+margin-right:0px;
+margin-left:22px;
+}
+
+#accordion_inner, #s5_pos_top_row1_1 {
+direction:ltr;
+}
+
+.jcomments-links {
+text-align:right;
+direction:ltr;
+}
+
+
+#loading_img {
+visibility:hidden;
+}
+
+.latestnews li, .mostread li, .sections li, .s5_module_box ul.menu a, .module_round_box ul.menu a {
+background-position:center right;
+}
+
+.s5_am_toggler {
+text-indent:22px;
+}
+
+div.s5_accordion_menu_element li a, .s5_am_inner_li .separator span {
+background-position:center right !important;
+padding-left:0px;
+padding-right:18px;
+}
+
+
+/* Flex Menu
+----------------------------------------------------------- */
+
+#s5_nav, #subMenusContainer {
+direction:rtl;
+}
+
+
+#subMenusContainer a, #s5_nav li li a {
+text-align:right;
+}
+
+.subParentBtn .S5_submenu_item a {
+background:none;
+}
+
+.s5_sub_wrap, .s5_sub_wrap_lower, .s5_sub_wrap_rtl, .s5_sub_wrap_lower_rtl { 
+margin-left:12px !important;
+}
+
+#s5_nav li {
+float:right;
+}
+
+
+/* End Flex Menu
+----------------------------------------------------------- */
+
+
+
+
+
+
+/* Jcomments
+----------------------------------------------------------- */
+#jc {padding-right:11px; }
+#jc h4 { text-align:right;}
+#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {
+text-align:right;}
+#comments-form .btn, #comments-report-form .btn {
+float:right;margin-right:22px;}
+
+#jc .rbox div, #comments {
+text-align:right;
+}
+
+
+/* Tienda
+----------------------------------------------------------- */
+
+div#tienda_products div.product_thumb {
+float:none;
+}

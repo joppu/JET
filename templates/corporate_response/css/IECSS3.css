@@ -1,0 +1,66 @@
+
+#s5_custom_1 a.readon, .s5_va_element_inner .readon {
+behavior:none !important;
+}
+
+#s5_social_wrap {
+float:none;
+}
+
+#s5_header_right {
+margin-right:35px;
+}
+
+#s5_search_wrap { 
+left:43%;
+}
+
+#s5_search_icon {
+margin-right:8px;
+}
+
+#s5_search_wrap .inputbox {
+margin-right:-500px !important;
+}
+
+.s5_sub_wrap, .s5_sub_wrap_lower, .s5_sub_wrap_rtl, .s5_sub_wrap_lower_rtl { 
+margin-left:-13px;
+}
+
+#subMenusContainer div.s5_sub_wrap ul, #subMenusContainer div.s5_sub_wrap_rtl ul {
+	border:none;
+	background:#FFFFFF;
+	padding:0px; 
+	padding-top:8px;
+	padding-bottom:8px;
+	border:solid 1px #E1E1E1;
+	border-top:none;
+}
+
+#subMenusContainer div.s5_sub_wrap_lower ul, #subMenusContainer div.s5_sub_wrap_lower_rtl ul {
+	border:none;
+	background:#FFFFFF;
+	padding:0px; 
+	padding-top:8px;
+	padding-bottom:8px;
+	border:solid 1px #E1E1E1;
+	width:100% !important;
+}
+
+#s5_body_wrap, #s5_search_wrap .inputbox {
+box-shadow:0 0px 11px #CCCCCC;
+}
+
+#s5_loginreg li {
+margin-top:-1px;
+margin-bottom:2px;
+}
+
+#s5_loginreg {
+width:134px;
+}
+
+.s5_am_innermenu {
+display:inline-block;
+}
+

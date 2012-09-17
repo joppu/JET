@@ -1,0 +1,374 @@
+/* ANY CSS FOR ALL WIDTHS GOES HERE
+----------------------------------------------------------- */
+
+
+
+/* ALL WIDTHS UNDER 970PX
+----------------------------------------------------------- */
+
+@media screen and (max-width: 970px){
+
+	/* DEFAULT
+	----------------- */
+
+	.s5_wrap {
+	width:100% !important;
+	}
+	
+	.s5_is_display, .s5_is_slide {
+	position:relative !important;
+	}
+	
+	.s5_is_slide {
+	height:auto !important;
+	opacity:1 !important;
+	filter:alpha(opacity=100) !important;
+	-moz-opacity:1 !important;
+	-khtml-opacity: 1 !important;
+	}
+	
+	/* CUSTOM
+	----------------- */
+	
+	#s5_body_padding {
+	padding-left:14px;
+	padding-right:14px;
+	}
+	
+	.s5_is_slide {
+	background:none !important;
+	}
+	
+	body {
+	font-size:0.7em !important;
+	}
+	
+	#fontControls {
+	display:none;
+	}
+	
+}
+
+
+/* TABLET PORTRAIT MODE CSS
+----------------------------------------------------------- */
+
+@media screen and (min-width:580px) and (max-width: 970px){
+
+	
+	/* CUSTOM
+	----------------- */
+	
+	.S5_parent_subtext {
+	font-size:0.9em !important;
+	}
+	
+	#s5_nav li a {
+	font-size:1.3em !important;
+	}
+	
+	#s5_nav li .s5_level1_span1 {
+	padding-left:9px;
+	padding-right:9px;
+	}
+
+	#s5_logo_wrap {
+	max-width:49%;
+	}
+	
+	#s5_header_right {
+	max-width:49%;
+	}
+	
+	#s5_top_menu li a {
+	padding-left:7px;
+	padding-top:10px;
+	}
+	
+}
+
+
+/* TABLET PORTRAIT MODE CSS - SMALLER TABLETS
+----------------------------------------------------------- */
+
+@media screen and (max-width: 750px){
+
+	/* CUSTOM
+	----------------- */
+
+	#s5_menu_wrap {
+	display:none;
+	}
+
+	/* CUSTOM
+	----------------- */
+	
+	#s5_search_hover {
+	display:none;
+	}
+	
+	#s5_body_padding {
+	padding:12px;
+	}
+
+}
+
+
+/* MOBILE LAYOUT CSS
+----------------------------------------------------------- */
+
+@media screen and (max-width: 579px){
+
+	/* DEFAULT
+	----------------- */
+
+	#s5_right_column_wrap_inner .s5_float_left, #s5_left_column_wrap_inner .s5_float_left {
+	float:none;
+	}
+
+	#s5_columns_wrap_inner {
+	width:100%;
+	}
+
+	#s5_center_column_wrap {
+	width:100%;
+	left:100%;
+	}
+
+	#s5_left_column_wrap {
+	left:0%;
+	}
+	
+	#s5_left_top_wrap, #s5_left_column_wrap, #s5_left_inset_wrap, #s5_left_wrap, #s5_left_bottom_wrap, #s5_right_top_wrap, #s5_right_column_wrap, #s5_right_inset_wrap, #s5_right_wrap, #s5_right_bottom_wrap, #s5_top_row1 .s5_float_left, #s5_top_row2 .s5_float_left, #s5_top_row3 .s5_float_left, #s5_above_columns_inner .s5_float_left, #s5_middle_top .s5_float_left , #s5_middle_bottom .s5_float_left, #s5_below_columns_inner .s5_float_left, #s5_bottom_row1 .s5_float_left, #s5_bottom_row2, .s5_float_left, #s5_bottom_row3 .s5_float_left, #s5_above_body .s5_float_left, #s5_below_body .s5_float_left {
+	width:100% !important;
+	}
+	
+	#s5_center_column_wrap_inner {
+	margin:0px !important;
+	}
+	
+	#s5_left_column_wrap {
+	margin-right:0px !important;
+	}
+	
+	#s5_right_column_wrap {
+	margin-left:0px !important;
+	}
+	
+	.items-row .item {
+	width:100% !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	}
+	
+	/* CUSTOM
+	----------------- */
+	
+	#s5_top_menu li a {
+	padding-left:7px;
+	padding-top:10px;
+	}
+	
+	#s5_logo_wrap {
+	width:100%;
+	}
+	
+	#s5_header_area_inner {
+	padding:0px;
+	}
+	
+	#s5_header_area1 {
+	padding:22px;
+	}
+	
+	#s5_header_right, #s5_logo_wrap {
+	float:none;
+	}
+	
+	#s5_logo {
+	margin-bottom:30px;
+	}
+	
+	#s5_top_row1_area1 {
+	padding-left:4px;
+	padding-right:4px;
+	}
+
+}
+
+
+/* CUSTOM SIZES
+----------------------------------------------------------- */
+
+
+
+/* IMAGE AND CONTENT FADER
+----------------------------------------------------------- */
+.jdGallery .slideInfoZone h2{
+	font-size: 5.4em !important;
+}
+
+
+@media screen and (max-width: 1240px){
+	.jdGallery .slideInfoZone h2{
+	font-size: 4.4em !important;
+	}
+}
+
+@media screen and (max-width: 1080px){
+	.jdGallery .slideInfoZone h2{
+	font-size: 3.4em !important;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.jdGallery .slideInfoZone h2 {
+	font-size: 2.8em !important;
+	}
+	.jdGallery .slideInfoZone p {
+	font-size:0.85em;
+	}
+}
+
+@media screen and (max-width: 840px){
+	.jdGallery .slideInfoZone h2 {
+	font-size: 2.3em !important;
+	}
+	.jdGallery .slideInfoZone h2 br {
+	display:none !important;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.jdGallery .slideInfoZone h2{
+	display:none;
+	}
+	.jdGallery a.right, .jdGallery a.left {
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	}
+}
+
+
+
+
+/* VERTICAL ACCORDION
+----------------------------------------------------------- */
+
+@media screen and (min-width:580px) and (max-width: 970px){
+	.s5_va_element .padded {
+	width:40%;
+	}
+	.s5_va_element {
+	font-size:0.85em;
+	}
+}
+
+@media screen and (max-width: 579px){
+	.s5_va_element .padded {
+	width:37%;
+	}
+}
+
+
+
+/* S5 BOX
+----------------------------------------------------------- */
+
+@media screen and (max-width: 970px){
+
+	#colorbox {
+	width:50% !important;
+	height:auto !important;
+	}
+	
+	#cboxWrapper {
+	width:100% !important;
+	}
+	
+	#cboxContent, #cboxLoadedContent {
+	width:100% !important;
+	height:auto !important;
+	}
+	
+	#colorbox {
+	left:25% !important;
+	width:50% !important;
+	height:100% !important;
+	top:25% !important;
+	}
+	
+}
+
+@media screen and (max-width: 750px){
+
+	#cboxOverlay, #colorbox {
+	display:none !important;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SINGLE COLUMN FOR SMALL TABLETS - THIS IS ONLY USED FOR IE7 AND IE8. THE CLASS IS SET WITH JAVASCRIPT FOR IE ONLY
+----------------------------------------------------------- */
+
+@media screen and (max-width: 750px){
+	
+	.s5_ie_single_column #s5_right_column_wrap_inner .s5_float_left, .s5_ie_single_column #s5_left_column_wrap_inner .s5_float_left {
+	float:none  !important;
+	}
+
+	.s5_ie_single_column #s5_columns_wrap_inner {
+	width:100%  !important;
+	}
+
+	.s5_ie_single_column #s5_center_column_wrap {
+	width:100%  !important;
+	left:100%  !important;
+	}
+
+	.s5_ie_single_column #s5_left_column_wrap {
+	left:0%  !important;
+	}
+	
+	.s5_ie_single_column #s5_left_top_wrap, .s5_ie_single_column #s5_left_column_wrap, .s5_ie_single_column #s5_left_inset_wrap, .s5_ie_single_column #s5_left_wrap, .s5_ie_single_column #s5_left_bottom_wrap, .s5_ie_single_column #s5_right_top_wrap, .s5_ie_single_column #s5_right_column_wrap, .s5_ie_single_column #s5_right_inset_wrap, .s5_ie_single_column #s5_right_wrap, .s5_ie_single_column #s5_right_bottom_wrap {
+	width:100% !important;
+	}
+	
+	.s5_ie_single_column #s5_center_column_wrap_inner {
+	margin:0px !important;
+	}
+	
+	.s5_ie_single_column #s5_left_column_wrap {
+	margin-right:0px !important;
+	}
+	
+	.s5_ie_single_column #s5_right_column_wrap {
+	margin-left:0px !important;
+	}
+	
+	.s5_ie_single_column  .items-row .item {
+	width:100% !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	}
+
+}
