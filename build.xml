@@ -44,5 +44,6 @@
 
 <target name="build" depends="">
   <echo message="Hello, world"/>
+  <echo message="Hello, Joppu"/>
 </target>
 </project>
