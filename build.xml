@@ -43,6 +43,6 @@
 </target>
 
 <target name="build" depends="">
-
+  <echo message="Hello, world"/>
 </target>
 </project>
