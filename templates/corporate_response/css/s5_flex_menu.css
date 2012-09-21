@@ -130,7 +130,7 @@ margin-top:2px;
 
 #s5_nav li a {
 	font-size:1.4em;
-	color:#333333;
+	color:#dc143c;
 	}
 	
 
@@ -274,7 +274,7 @@ div.S5_grouped_child_item span span.S5_submenu_item a{
 }
 
 #s5_nav li:hover, #s5_nav li.mainMenuParentBtnFocused  {
-background:#FFFFFF;
+background:#ffffff;
 margin-top:1px;
 -moz-box-shadow:0 0px 3px #DAD9D9;
 -webkit-box-shadow:0 0px 3px #DAD9D9;

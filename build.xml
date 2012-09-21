@@ -1,49 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="ant-template" default="build">
 
+
+<taskdef resource="net/sf/antcontrib/antlib.xml">
+  <classpath>
+    <pathelement location="/Users/joppu/lib/apache-ant-1.8.2/lib/ant-contrib-1.0b3.jar"/>
+  </classpath>
+</taskdef>
+
+<property name="akeeba"  location="/Users/joppu/tmp/JET/github/JET/administrator/components/com_akeeba/backup"/>
+
 <target name="clean">
-  <delete dir="build" />
-  <delete dir="target" />
+
 </target>
 
 <target name="init">
-  <mkdir dir="build/classes"/>
-  <mkdir dir="target" />
+
 </target>
 
-<path id="compile.classpath">
-  <!-- Adds provided dependancies -->
-  <fileset dir="lib">
-    <include name="*.jar"/>
-  </fileset>
-  <!-- Adds external dependancies -->
-  <fileset dir="WebContent/WEB-INF/lib">
-    <include name="*.jar"/>
-  </fileset>
-</path>
+<target name="upload" depends="init">
+  <timestampselector property="latest.modified">
+    <path>
+      <fileset dir="${akeeba}">
+        <include name="*.zip" />
+      </fileset>
+    </path>
+  </timestampselector>
 
-<target name="compile" depends="init" >
-  <javac destdir="build/classes" debug="true" srcdir="src">
-    <classpath refid="compile.classpath"/>
-  </javac>
-  <!-- Adds the xml config files to the build-->
-  <copy todir="build/classes">
-    <fileset dir="src" includes="**/*.xml"/>
-  </copy>
+  <basename property="bakfile" file="${latest.modified}"/>
+
+  <echo message="Uploading ${bakfile}" />
+
+
+    <scp file="${latest.modified}"
+       todir="ubuntu@ec2-50-112-57-143.us-west-2.compute.amazonaws.com:/home/ubuntu/jet_backup" 
+       keyfile="/Users/joppu/.ec2/comnroots.pem"
+       verbose="true"
+    />
+
 </target>
 
-<target name="test" depends="compile">
-  <junit printsummary="yes" haltonfailure="yes">
-    <classpath>
-      <pathelement location="build/classes"/>
-      <path refid="compile.classpath"/>
-    </classpath>
-    <test name="test.ItemTest" haltonfailure="no" outfile="result" />
-  </junit>
+
+<target name="build" depends="upload">
+  <echo message="Executing remote ant task"/>
+
+    <sshexec host="ec2-50-112-57-143.us-west-2.compute.amazonaws.com"
+      username="ubuntu"
+      keyfile="/Users/joppu/.ec2/comnroots.pem"
+      command="sudo ant -Dbakfile=${bakfile} -f /home/ubuntu/jet_backup/build.xml"/>
 </target>
 
-<target name="build" depends="">
-  <echo message="Hello, world"/>
-  <echo message="Hello, Joppu"/>
+<target name="delete_install">
+      <sshexec host="ec2-50-112-57-143.us-west-2.compute.amazonaws.com"
+      username="ubuntu"
+      keyfile="/Users/joppu/.ec2/comnroots.pem"
+      command="sudo rm -rf /var/www/installation"/>
 </target>
+
+
+
+
 </project>

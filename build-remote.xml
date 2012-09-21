@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ant-template" default="build">
+
+<property name="mysqladmin" value="/usr/bin/mysqladmin"/>
+<property name="mysql.username" value="root"/>
+<property name="mysql.pwd" value="Welcome123*"/>
+<property name="mysql.dbname" value="jetjoomladb2"/>
+
+<target name="delete_htdocs">
+  <echo message="Deleting htdocs..."/>
+  <delete includeemptydirs="true">
+    <fileset dir="/var/www" includes="**/*"/>
+  </delete>
+</target>
+ 
+  <target name="delete_db">
+    <echo message="Deleting Database..."/>
+    <exec executable="${mysqladmin}">
+      <arg value="--user=${mysql.username}"/>
+      <arg value="--password=${mysql.pwd}"/>
+      <arg value="--force"/>
+      <arg value="DROP"/>
+      <arg value="${mysql.dbname}"/>
+    </exec>
+  </target>
+
+
+
+<target name="build" depends="delete_htdocs, delete_db">
+  <echo message="Unzipping backup file ${bakfile}"/>
+
+  <unzip src="/home/ubuntu/jet_backup/${bakfile}" dest="/var/www/"/>
+
+  <chmod file="/var/www/configuration.php" perm="777"/>
+</target>
+
+
+</project>
