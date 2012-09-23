@@ -2,7 +2,7 @@
 
 body  {
 	background:#FCFCFC url(../images/s5_background.jpg);
-	color:#333333;
+	color:#dc143c;
 	font-size:0.8em;
 	line-height:140%;}
 
@@ -842,9 +842,9 @@ margin-bottom:16px;
 }
 
 .s5_light_modules .module_round_box, #s5_component_wrap {
-background:#FFFFFF;
+background:#000000;
 padding:15px;
-border:solid 1px #D8D8D8;
+border:solid 1px #000000;
 }
 
 .s5_light_modules .s5_mod_h3 {
@@ -858,6 +858,22 @@ padding:7px;
 border:none;
 color:#B0B0AF !important;
 }
+
+/* JOPPU DID THIS
+----------------------------------------------------------- */
+.jb-classifier-link-wrapper{
+	display: none;
+}
+
+#s5_pos_top_row1_1 .module_round_box-no_border{
+background:#000000;
+}
+
+#s5_pos_top_row1_1 img{
+display: block; margin-left: auto; margin-right: auto
+}
+
+
 
 #s5_pos_top_row1_1 .module_round_box-dark_less_padding{
 background:#33ff33;

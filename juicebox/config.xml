@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	resizeOnImport="false"
+	maxImageWidth="640"
+	maxImageHeight="430"
+	imageQuality="80"
+	thumbWidth="85"
+	thumbHeight="85"
+	thumbQuality="90"
+	useFlickr="false"
+	cropToFit="false"
+	galleryTitle="Jupiter Eclipse Training Pics"
+	showOpenButton="false"
+	showThumbsButton="false"
+
+>
+  <image imageURL="images/jupiter_eclipse_pic1.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic1.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic2.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic2.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic3.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic3.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic4.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic4.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic5.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic5.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic6.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic6.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic7.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic7.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic8.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic8.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic9.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic9.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic10.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic10.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic11.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic11.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic12.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic12.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic13.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic13.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic14.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic14.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic15.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic15.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic16.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic16.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic17.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic17.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jupiter_eclipse_pic18.jpg"
+	thumbURL="thumbs/jupiter_eclipse_pic18.jpg"
+	linkURL=""
+	linkTarget="_blank">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
